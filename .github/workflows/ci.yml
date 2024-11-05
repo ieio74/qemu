@@ -32,7 +32,7 @@ jobs:
       - name: Checkout QEMU source
         uses: actions/checkout@v4
         with:
-          repository: Wind-River/qemu
+          repository: ieio74/qemu
           path: qemu
           # Use a specific branch or tag if needed
           ref: wr-integration
